@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:background="@color/colorPrimaryDark"
+    android:padding="10dp">
+    <ImageView
+        android:id="@+id/img_notifi"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/icon_music"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toStartOf="@id/notifi_play"
+        android:layout_toEndOf="@id/img_notifi"
+        android:layout_marginStart="10dp"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/tv_Notifi_title_song"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="14dp"/>
+        <TextView
+            android:id="@+id/tv_Notifi_single_song"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/gray"
+            android:textSize="12dp"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/notifi_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/notifi_clear"
+        android:layout_centerVertical="true"
+
+        android:src="@drawable/ic_play_myicon"/>
+    <ImageView
+        android:id="@+id/notifi_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_pause_myicon"/>
+
+</RelativeLayout>

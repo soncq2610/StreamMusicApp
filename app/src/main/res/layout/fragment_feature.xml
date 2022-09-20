@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+
+    tools:context=".FeatureFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <RelativeLayout
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/splashIcon"
+                android:layout_width="82dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+
+                android:src="@drawable/splash_icon_mini" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="14dp"
+                android:layout_marginBottom="12dp"
+                android:layout_toRightOf="@+id/splashIcon"
+                android:fontFamily="@font/ios_bold"
+                android:text="Feature"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/btn_log_uot"
+                android:layout_width="37dp"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="19dp"
+                android:src="@drawable/ic_mlog_out" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            >
+
+            <TextView
+                android:id="@+id/playlist_text"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/ios_semi_bold"
+                android:text="Playlists"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcv_album"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/playlist_text"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="17dp" />
+
+        </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        >
+
+        <TextView
+            android:id="@+id/Song_text"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/ios_semi_bold"
+            android:text="Song"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcv_Song"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Song_text"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="17dp" />
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

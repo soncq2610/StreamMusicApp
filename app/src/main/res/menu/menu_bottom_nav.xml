@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/feature_icon" android:icon="@drawable/wave"/>
+    <item android:id="@+id/library_icon" android:icon="@drawable/ic_i_library"/>
+    <item android:id="@+id/mucsic_play" android:icon="@drawable/icon_music"/>
+</menu>

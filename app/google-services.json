@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "192394894737",
+    "firebase_url": "https://musicstream-e1f02-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "musicstream-e1f02",
+    "storage_bucket": "musicstream-e1f02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192394894737:android:4b7e612ec9c1902a870e30",
+        "android_client_info": {
+          "package_name": "com.example.backup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192394894737-q1v2335qhmn998nnqno02up1h28v8ghk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.backup",
+            "certificate_hash": "e3480b8e9d7e9efba1521ac9b7ba4ad0d9ad2819"
+          }
+        },
+        {
+          "client_id": "192394894737-q9cpb4lf68b0bhh5ffei3ngffi83mskp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRA-XjXVs70my_P6syAYB56QHTXXg5938"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192394894737-q9cpb4lf68b0bhh5ffei3ngffi83mskp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192394894737:android:20996aba18a4cf01870e30",
+        "android_client_info": {
+          "package_name": "com.example.streammusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192394894737-q9cpb4lf68b0bhh5ffei3ngffi83mskp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRA-XjXVs70my_P6syAYB56QHTXXg5938"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192394894737-q9cpb4lf68b0bhh5ffei3ngffi83mskp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
